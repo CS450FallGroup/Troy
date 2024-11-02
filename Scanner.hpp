@@ -11,7 +11,7 @@
 #ifndef SCANNER_HPP
 #define SCANNER_HPP
 
-#include "../SourceReader.h"
+#include "SourceReader.h"
 #include <string>
 #include <list>
 

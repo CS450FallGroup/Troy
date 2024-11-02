@@ -4,7 +4,7 @@
 
 #ifndef TROY_POSTFIXEVALUATOR_HPP
 #define TROY_POSTFIXEVALUATOR_HPP
-#include "Scanner/Scanner.hpp"
+#include "Scanner.hpp"
 #include <map>
 #include <stack>
 #include <cctype>

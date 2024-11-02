@@ -429,16 +429,6 @@ void DescentParser::setSymbolName(const Token &t) {
   curSymbol->name = getLowercase(t.getSpelling());
 }
 
-string DescentParser::getLowercase(const string &s) {
-  string out;
-  
-  for (auto c: s) {
-    out += tolower(c);
-  }
-
-  return out;
-}
-
 bool DescentParser::checkForbidden(const Token& t) {
   //check for forbidden keyword usage
   const string lspell = getLowercase(t.getSpelling());

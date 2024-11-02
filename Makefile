@@ -10,8 +10,8 @@ SourceReader.o: SourceReader.cpp SourceReader.h StringParser.o
 StringParser.o: StringParser.cpp StringParser.h
 	g++ -c -std=c++20 StringParser.cpp -o StringParser.o
 
-Scanner.o: Scanner/Scanner.hpp Scanner/Scanner.cpp SourceReader.o
-	g++ -c -std=c++20 Scanner/Scanner.cpp -o Scanner.o
+Scanner.o: Scanner.hpp Scanner.cpp SourceReader.o
+	g++ -c -std=c++20 Scanner.cpp -o Scanner.o
 
 clean:
 	rm -rf *.o

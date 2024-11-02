@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2024
  * 
  */
-#include "../../Scanner/Scanner.hpp"
+#include "../../Scanner.hpp"
 #include "../../PostFixEvaluator.hpp"
 #include <sstream>
 #include <fstream>

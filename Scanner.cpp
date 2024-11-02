@@ -9,7 +9,7 @@
  * 
  */
 #include "Scanner.hpp"
-#include "../StringParser.h"
+#include "StringParser.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
